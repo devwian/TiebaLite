@@ -670,9 +670,9 @@ internal fun ReplyPageContent(
     }
 
     DisposableEffect(editTextView) {
-        if (editTextView != null) {
-            showKeyboard()
-        }
+//        if (editTextView != null) {
+//            showKeyboard()
+//        }
 
         onDispose {
             if (editTextView != null) {
